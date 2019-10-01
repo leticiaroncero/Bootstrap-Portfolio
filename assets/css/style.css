@@ -6,11 +6,20 @@ body {
     font-size: 1em;
 }
 
+header {
+    background-color: #ffffff;
+}
+
+.header-content {
+    width: 960px;
+    margin: auto;
+}
+
 h1 {
-    /* padding: 28px; */
+    padding: 1em;
     background-color: #4aaaa5;
     color: #ffffff;
-    /* margin: 0; */
+    margin: 0;
     font-size: 2em;
 }
 
@@ -30,13 +39,15 @@ h3 {
 }
 
 .navbar {
-    background-color: #ffffff;
+    padding:0;
 }
 
 .container {
     /* overriding Boostrap's container width */
     width: 960px;
     background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 .avatar-image {
